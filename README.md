@@ -26,27 +26,16 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
 🧠 How It Works (Architecture)
 
 PDF Upload – User uploads multiple resume PDFs
-
 Text Extraction – Text extracted using PyPDF
-
 Chunking – Resumes split into overlapping chunks
-
 Embedding – Chunks converted into vectors
-
 Vector Store – Stored in FAISS
-
 Query – User asks a question
-
 Retrieval – Relevant resume chunks fetched
-
 LLM Response – Answer generated using retrieved context
 
 💬 Example Queries
-
 “Find candidates with Python and Django experience”
-
 “Who has internship experience in data science?”
-
 “Which resumes mention React and AWS?”
-
 “Candidates with more than 2 years experience”
